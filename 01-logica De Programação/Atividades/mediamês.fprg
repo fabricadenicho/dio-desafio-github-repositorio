@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="willi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-24 12:10:33 "/>
+        <attribute name="created" value="d2lsbGk7REVTS1RPUC1EOEpETE1POzIwMjItMDMtMjM7IjEwOjE2OjMzICI7MjgwOQ=="/>
+        <attribute name="edited" value="d2lsbGk7REVTS1RPUC1EOEpETE1POzIwMjItMDMtMjQ7IjEyOjEwOjMzICI7MjsyOTE1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, marco, abril, media, total" type="Real" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <assign variable="total" expression="(janeiro+fevereiro+marco+abril)"/>
+            <output expression="media" newline="True"/>
+            <output expression="total" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#232;ns voc&#234; recebera um abono de 20%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Parab&#234;ns voc&#234; recebera um abono de 10%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,69 @@
+comando uteis
+git help
+git commit 
+git help <qualquer_comando_git>
+
+AO primeiro push de um repositório deve conter o nome do repositório remoto e o branch.
+
+git push -u origin master
+
+Os demais pushes não precisam dessa informação
+
+git push
+
+Atualizar os arquivos no branch atual
+git pull
+
+Clonar um repositório remoto já existente
+git clone https://github.com/fabricadenicho/dio-desafio-github-repositorio.git
+
+________________________________________________________________________________________________________________
+
+Criar novo repositório
+git init
+
+Verificar estado dos arquivos/diretórios
+git status
+
+dicionar um arquivo em específico
+git add meu_arquivo.txt
+
+Adicionar um diretório em específico
+git add meu_diretorio
+
+dicionar todos os arquivos/diretórios
+git add .	
+
+Comitar informando mensagem
+git commit meuarquivo.txt -m "minha mensagem de commit"
+
+
+
+
+________________________________________________________________________________________________________________
+
+
+
+Setar usuário
+git config --global user.name "Alber william"
+
+Setar email
+git config --global user.email alberparanegocios@gmail.com
+
+Setar editor
+git config --global core.editor vim
+
+Setar ferramenta de merge
+git config --global merge.tool vimdiff
+
+Setar arquivos a serem ignorados
+git config --global core.excludesfile ~/.gitignore
+
+Listar configurações
+git config --list
+
+
+
+
+
+
