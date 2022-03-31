@@ -1,0 +1,20 @@
+ID X CLASSE
+
+<header id="header" class"header"></header>
+
+<header class="header"></header>
+
+
+.header { 
+padding:10px;
+}
+#header { 
+pedding:15px; }
+
+
+
+
+
+
+
+

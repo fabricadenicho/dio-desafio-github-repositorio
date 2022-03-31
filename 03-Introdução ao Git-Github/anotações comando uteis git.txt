@@ -17,6 +17,8 @@ git pull
 Clonar um repositório remoto já existente
 git clone https://github.com/fabricadenicho/dio-desafio-github-repositorio.git
 
+git config --global init.defaultBranch main
+
 ________________________________________________________________________________________________________________
 
 Criar novo repositório

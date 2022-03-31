@@ -1,0 +1,54 @@
+° Tags Para Textos
+
+<h1> Título da Página </h1>
+
+<h2> Título de seção</h2>
+
+<h3>Título de artigo</h>
+
+<p> Conteúdo do artigo.</p>
+
+_____________________________
+
+° Tags para links 
+
+<a href="https://www.linkedin.com/in/alber-william-adm/">Linkedins</a>
+< herf="alberparanegocios@gmail.com">e-mail</a>
+<a target="_blank">link</a>
+
+
+° tag img
+<img src="img/avatar.jpg">
+
+<img alt="foto de alber william">
+
+
+
+____________________________________________________________________
+
+
+tags listas li, ul e ol.
+
+<u>
+item 1
+item 2
+
+<ol>
+1. item 1
+2. item 3
+
+<li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
