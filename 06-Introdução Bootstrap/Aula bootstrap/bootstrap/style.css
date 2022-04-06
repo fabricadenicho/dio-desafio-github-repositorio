@@ -1,0 +1,33 @@
+
+
+
+
+.navbar{
+    background-color:#f0f8f7;
+}
+
+.container-fluid{
+    background-color: #CDDDDD;
+    text-align: center;
+
+}
+.margin{
+padding-top: 10px;
+padding-bottom:50px ;
+
+}
+
+.parceiros{
+    background-color: #ACBDBA;
+    
+}
+
+
+.lancamento{
+    background-color: #f0f8f7;
+}
+
+.bg-footer{
+    background-color: #2E2F2F;
+    color: white
+}
